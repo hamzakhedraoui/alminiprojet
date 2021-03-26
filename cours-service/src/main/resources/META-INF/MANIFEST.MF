@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Main-Class: com.elearning.demo.DemoApplication
+Class-Path: jul-to-slf4j-1.7.30.jar jboss-logging-3.4.1.Final.jar jandex
+ -2.2.3.Final.jar commons-lang-2.6.jar woodstox-core-5.3.0.jar eureka-co
+ re-1.10.11.jar guice-4.1.0.jar commons-math-2.2.jar netflix-infix-0.3.0
+ .jar hibernate-core-5.4.29.Final.jar jaxb-runtime-2.3.3.jar jakarta.xml
+ .bind-api-2.3.3.jar spring-orm-5.3.5.jar spring-cloud-context-3.0.2.jar
+  tomcat-embed-core-9.0.44.jar slf4j-api-1.7.30.jar spring-cloud-starter
+ -loadbalancer-3.0.2.jar byte-buddy-1.10.22.jar jackson-core-2.11.4.jar 
+ httpclient-4.5.13.jar jakarta.annotation-api-1.3.5.jar spring-data-jpa-
+ 2.4.6.jar reactor-extra-3.4.2.jar spring-boot-starter-validation-2.4.4.
+ jar guava-19.0.jar jackson-datatype-jdk8-2.11.4.jar jakarta.persistence
+ -api-2.2.3.jar txw2-2.3.3.jar javax.inject-1.jar spring-expression-5.3.
+ 5.jar commons-codec-1.15.jar spring-boot-starter-tomcat-2.4.4.jar commo
+ ns-jxpath-1.3.jar spring-boot-starter-logging-2.4.4.jar aspectjweaver-1
+ .9.6.jar spring-cloud-netflix-eureka-client-3.0.2.jar jakarta.el-3.0.3.
+ jar servo-core-0.12.21.jar stringtemplate-3.2.1.jar spring-boot-starter
+ -aop-2.4.4.jar logback-classic-1.2.3.jar jackson-annotations-2.11.4.jar
+  xstream-1.4.14.jar logback-core-1.2.3.jar istack-commons-runtime-3.0.1
+ 1.jar gson-2.8.6.jar jettison-1.4.0.jar jakarta.activation-1.2.2.jar sp
+ ring-data-commons-2.4.6.jar spring-context-5.3.5.jar jsr311-api-1.1.1.j
+ ar jackson-databind-2.11.4.jar spring-aop-5.3.5.jar commons-configurati
+ on-1.10.jar hibernate-validator-6.1.7.Final.jar bcprov-jdk15on-1.64.jar
+  log4j-api-2.13.3.jar spring-security-crypto-5.4.5.jar evictor-1.0.0.ja
+ r snakeyaml-1.27.jar jackson-datatype-jsr310-2.11.4.jar classmate-1.5.1
+ .jar joda-time-2.3.jar spring-boot-starter-jdbc-2.4.4.jar spring-jcl-5.
+ 3.5.jar aopalliance-1.0.jar jakarta.activation-api-1.2.2.jar spring-asp
+ ects-5.3.5.jar spring-cloud-starter-3.0.2.jar spring-jdbc-5.3.5.jar rea
+ ctor-core-3.4.4.jar xmlpull-1.1.3.1.jar mysql-connector-java-8.0.23.jar
+  spring-tx-5.3.5.jar spring-boot-starter-web-2.4.4.jar log4j-to-slf4j-2
+ .13.3.jar spring-webmvc-5.3.5.jar antlr-2.7.7.jar dom4j-2.1.3.jar sprin
+ g-cloud-commons-3.0.2.jar spring-web-5.3.5.jar spring-beans-5.3.5.jar s
+ pring-cloud-starter-netflix-eureka-client-3.0.2.jar reactive-streams-1.
+ 0.3.jar xpp3_min-1.1.4c.jar spring-boot-2.4.4.jar spring-boot-starter-c
+ ache-2.4.4.jar spring-boot-autoconfigure-2.4.4.jar spring-cloud-loadbal
+ ancer-3.0.2.jar httpcore-4.4.14.jar jakarta.transaction-api-1.3.3.jar j
+ ackson-module-parameter-names-2.11.4.jar hibernate-commons-annotations-
+ 5.1.2.Final.jar HikariCP-3.4.5.jar spring-boot-starter-json-2.4.4.jar s
+ pring-boot-starter-data-jpa-2.4.4.jar eureka-client-1.10.11.jar antlr-r
+ untime-3.4.jar spring-security-rsa-1.0.9.RELEASE.jar bcpkix-jdk15on-1.6
+ 4.jar netflix-eventbus-0.3.0.jar javassist-3.27.0-GA.jar stax2-api-4.2.
+ jar jakarta.validation-api-2.0.2.jar spring-context-support-5.3.5.jar t
+ omcat-embed-websocket-9.0.44.jar spring-boot-starter-2.4.4.jar spring-c
+ ore-5.3.5.jar
+

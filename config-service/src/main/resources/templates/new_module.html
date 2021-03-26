@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>Create New Module</title>
+    <style>
+        body{
+            background-image: url("https://www.transperfect.com/sites/default/files/learning-cover-1-fin.jpg");
+            background-size: cover;
+            position: relative;
+        }
+        body:before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(252,252,252,0.6);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+<div align="center">
+    <h1>Create New Module</h1>
+    <br />
+    <form action="#" th:action="@{/save}" th:object="${module}"
+          method="post">
+
+        <table border="0" cellpadding="10">
+            <tr>
+                <td><input type="hidden" th:field="*{id}" /></td>
+            </tr>
+            <tr>
+                <td>credit:</td>
+                <td><input type="number" th:field="*{credit}" /></td>
+            </tr>
+            <tr>
+                <td>coefficient:</td>
+                <td><input type="number" th:field="*{coefficient}" /></td>
+            </tr>
+            <tr>
+                <td>cours hours:</td>
+                <td><input type="number" th:field="*{courshours}" /></td>
+            </tr>
+            <tr>
+                <td>td hours:</td>
+                <td><input type="number" th:field="*{tdhours}" /></td>
+            </tr>
+            <tr>
+                <td>tp hours:</td>
+                <td><input type="number" th:field="*{tphours}" /></td>
+            </tr>
+            <tr>
+                <td>Module name:</td>
+                <td><input type="text" th:field="*{name}" /></td>
+            </tr>
+            <tr>
+                <td>teacher full name:</td>
+                <td><input type="text" th:field="*{lastname}" /></td>
+            </tr>
+            <tr>
+                <td>teacher email:</td>
+                <td><input type="text" th:field="*{email}" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Save</button> </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

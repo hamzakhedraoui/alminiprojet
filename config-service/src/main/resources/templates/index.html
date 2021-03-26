@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>e-learning</title>
+    <style>
+        body{
+            background-image: url("https://www.transperfect.com/sites/default/files/learning-cover-1-fin.jpg");
+            background-size: cover;
+            position: relative;
+        }
+        body:before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(252,252,252,0.6);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+<div align="right">
+    <a href="/logout">logout</a>
+</div>
+<div align="center">
+    <a href="/teachers">Teachers List</a>
+    <h1>module List</h1>
+    <a href="/new">Create New module</a>
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+        <tr>
+            <th>Module ID</th>
+            <th>credit</th>
+            <th>Coefficient</th>
+            <th>cours hours</th>
+            <th>TDs hours</th>
+            <th>TPs hours</th>
+            <th>Module Name</th>
+            <th>Teacher full Name</th>
+            <th>Email</th>
+            <th>Edit/Delete</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="module : ${moduleList}">
+            <td th:text="${module.id}">Product ID</td>
+            <td th:text="${module.credit}">credit</td>
+            <td th:text="${module.coefficient}">Coefficient</td>
+            <td th:text="${module.courshours}">courshours</td>
+            <td th:text="${module.tdhours}">tdhours</td>
+            <td th:text="${module.tphours}">tphours</td>
+            <td th:text="${module.name}">name</td>
+            <td th:text="${module.lastname}">lastname</td>
+            <td th:text="${module.email}">email</td>
+
+            <td>
+                <a th:href="'/edit/' + ${module.id}">Edit</a>
+                &nbsp;&nbsp;&nbsp;
+                <a th:href="'/delete/' + ${module.id}">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
